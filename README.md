@@ -41,3 +41,6 @@ A estrutura HTML é responsável pela criação da interface do usuário. Ela de
 O CSS é utilizado para estilizar a aplicação, proporcionando uma melhor experiência visual ao usuário. Ele define a aparência dos elementos, como cores, fontes, tamanhos e espaçamentos, garantindo que a interface seja amigável e atraente. Os estilos são aplicados a classes específicas e IDs dos elementos HTML, permitindo que a aparência da aplicação seja ajustada facilmente sem alterar a estrutura do HTML.
 ### JavaScript
 O JavaScript é a parte do código que traz interatividade à aplicação. Ele puxa informações do HTML por meio do uso de métodos como `document.getElementById()`, que permite acessar os valores inseridos pelo usuário nos campos de entrada. As funções JavaScript realizam a lógica do sorteio, gerando números aleatórios dentro do intervalo especificado, garantindo que os números sorteados não se repitam. Além disso, o JavaScript atualiza a interface do usuário com os resultados do sorteio e gerencia o estado dos botões (ativando ou desativando) com base nas ações do usuário.
+
+### Agradecimentos
+Agradecimento especial à Alura pelos excelentes cursos e materiais que contribuíram para o desenvolvimento deste projeto.
