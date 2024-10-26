@@ -16,6 +16,7 @@ Para executar este projeto, siga as instruções abaixo:
 - HTML
 - CSS
 
+
 ### Funcionalidades
 - Exibe uma lista de boardgames disponíveis para aluguel.
 - Permite que o usuário alugue ou devolva jogos com um simples clique.
