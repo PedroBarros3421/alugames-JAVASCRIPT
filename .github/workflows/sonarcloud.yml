@@ -19,10 +19,10 @@ jobs:
           node-version: '18'
       # Install dependencies using npm (ou outro gerenciador de pacotes)
       - name: Install dependencies
-        run: npm install
+        run: npm install lite-server --save-dev
       # Build the project (se necessário)
       - name: Build project
-        run: npm run build  # Substitua pelo comando de build adequado ao seu projeto, se houver
+        run: npm run build  
       # Run SonarCloud scan
       - name: Run SonarCloud scan
         env:
