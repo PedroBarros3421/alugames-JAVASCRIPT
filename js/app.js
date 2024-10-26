@@ -10,6 +10,9 @@ function alterarStatus(id) { //identificando o game
     let botao = gameClicado.querySelector('.dashboard__item__button');
     let nomeJogo = gameClicado.querySelector(".dashboard__item__name");
 
+    let unusedVariable = "I am not used";
+
+
     //Alternando imagem e botão
     if(imagem.classList.contains("dashboard__item__img--rented")) {
         // adiciona uma confirmação antes de devolver o jogo
