@@ -12,17 +12,25 @@ jobs:
     steps:
       # Checkout the code
       - uses: actions/checkout@v3
+
       # Set up Node.js 18 (ou a versão que seu projeto usa)
       - name: Set up Node.js 18
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+
+      # Instalar SonarScanner globalmente
+      - name: Install SonarScanner
+        run: npm install -g sonar-scanner
+
       # Install dependencies using npm (ou outro gerenciador de pacotes)
       - name: Install dependencies
         run: npm install lite-server --save-dev
+
       # Build the project (se necessário)
       - name: Build project
         run: npm run build  
+
       # Run SonarCloud scan
       - name: Run SonarCloud scan
         env:
